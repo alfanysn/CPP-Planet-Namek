@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
 String apiWritekey = ""; //masukan api thingspeak untuk melakukan upload data ke web thingspeak
-const char* ssid = ""; // masukan ssid wifi
+const char* ssid = ""; // masukan nama ssid wifi
 const char* password = "" ;// masukan password wifi
  
 const char* server = "api.thingspeak.com"; menghubungkan ke server thingspreak
